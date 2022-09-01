@@ -1,0 +1,37 @@
+.section1{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.section1 h1{
+    font-size: 100px;
+}
+.button{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    background-color: red;
+    color: wheat;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    box-shadow: 1px 1px 10px 1px gray;
+}
+#input-field{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+#input-field:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px 1px gray;
+    border: none;
+}
